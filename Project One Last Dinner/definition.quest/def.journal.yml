@@ -1,0 +1,13 @@
+journals:
+  quests:
+    homedinner:
+      title: "Home Dinner"
+      type: sidequest
+      world: bob                       # optional, if empty every objective requires world
+      description:
+        - back_home: Welcome back Home.<br/>
+        - success: Time to dinner.
+      instructions:
+        relaxing:
+          - relax:
+              caption: Prepare...

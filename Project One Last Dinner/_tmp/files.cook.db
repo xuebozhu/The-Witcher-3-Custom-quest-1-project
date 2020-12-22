@@ -1,0 +1,82 @@
+{
+    "files": [
+        {
+            "path": "quests\\prologue\\quest_files\\living_world\\entities\\clues\\blood\\lw_clue_blood_splat_big.w2ent",
+            "level": 2,
+            "additional": 1,
+            "id": "C3E62581-FBB0C1A4-580364F1-D3CEF1DE",
+            "hardImports": 1
+        },
+        {
+            "path": "dlc\\dlcproject1\\data\\entities\\clue_on_road.w2ent",
+            "level": 1,
+            "class": "CEntityTemplate",
+            "seed": 1,
+            "id": "7C8D8DCD-CBFCD8DC-7C030D6E-720A4366",
+            "diskSize": 1948,
+            "hardImports": 1,
+            "hard": [
+                "C3E62581-FBB0C1A4-580364F1-D3CEF1DE"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\data\\project1.w2quest",
+            "level": 1,
+            "class": "CQuest",
+            "seed": 1,
+            "id": "5A24CE4E-1FEE9D9B-1BD5C722-F9F1F816",
+            "diskSize": 3210,
+            "hardImports": 1,
+            "soft": [
+                "6C1F3443-84F5F909-6480D59A-87704631"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\dlcproject1.reddlc",
+            "level": 0,
+            "class": "CDLCDefinition",
+            "seed": 1,
+            "id": "EF0FFF4B-F6FF8E0C-1BC5CD6B-E86CC048",
+            "diskSize": 1469,
+            "hard": [
+                "5A24CE4E-1FEE9D9B-1BD5C722-F9F1F816"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\journal\\quests\\homedinner.journal",
+            "level": 0,
+            "class": "CJournalResource",
+            "seed": 1,
+            "id": "6C1F3443-84F5F909-6480D59A-87704631",
+            "diskSize": 1625,
+            "softImports": 1
+        },
+        {
+            "path": "dlc\\dlcproject1\\journal\\quests\\questgroup_project1.journal",
+            "level": 0,
+            "class": "CJournalResource",
+            "seed": 1,
+            "id": "B88BBECA-AD8E41DD-BB221C45-F065AAAC",
+            "diskSize": 623
+        },
+        {
+            "path": "dlc\\dlcproject1\\levels\\bob\\project1\\dinnerlayer1\\areas.w2l",
+            "level": 0,
+            "class": "CLayer",
+            "seed": 1,
+            "id": "0C7E2666-719DA4AC-6A9B6C3D-9823A697",
+            "diskSize": 1495
+        },
+        {
+            "path": "dlc\\dlcproject1\\levels\\bob\\project1\\dinnerlayer1\\interactive_entities.w2l",
+            "level": 0,
+            "class": "CLayer",
+            "seed": 1,
+            "id": "2CA1D726-0B3FBD83-FCFE6640-9A5309E0",
+            "diskSize": 930,
+            "hard": [
+                "7C8D8DCD-CBFCD8DC-7C030D6E-720A4366"
+            ]
+        }
+    ]
+}

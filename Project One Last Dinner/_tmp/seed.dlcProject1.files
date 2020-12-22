@@ -1,0 +1,46 @@
+{
+    "files": [
+        {
+            "path": "dlc\\dlcproject1\\data\\entities\\clue_on_road.w2ent",
+            "bundle": "blob",
+            "chunks": [
+                "dlc"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\dlcproject1.reddlc",
+            "bundle": "blob",
+            "chunks": [
+                "dlc"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\journal\\quests\\homedinner.journal",
+            "bundle": "blob",
+            "chunks": [
+                "dlc"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\journal\\quests\\questgroup_project1.journal",
+            "bundle": "blob",
+            "chunks": [
+                "dlc"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\levels\\bob\\project1\\dinnerlayer1\\areas.w2l",
+            "bundle": "blob",
+            "chunks": [
+                "dlc"
+            ]
+        },
+        {
+            "path": "dlc\\dlcproject1\\levels\\bob\\project1\\dinnerlayer1\\interactive_entities.w2l",
+            "bundle": "blob",
+            "chunks": [
+                "dlc"
+            ]
+        }
+    ]
+}

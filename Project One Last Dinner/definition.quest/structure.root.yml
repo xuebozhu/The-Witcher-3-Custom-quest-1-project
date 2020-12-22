@@ -1,0 +1,66 @@
+#
+# quest structure root segment
+# 
+# (version: 10, saved: 2020-12-06 22:25:43)
+#
+---
+structure:
+  quest:
+    blocks:
+      start:
+        ".editor": [ 20.8888969421, -18.6666412354 ]
+        next:
+          - waituntil.new_wait_until_entered_area
+      
+      waituntil.new_wait_until_entered_area:
+        entered: [ bob/area1, PLAYER ]
+        ".editor":
+          pos: [ 138.5051269531, 160.2222290039 ]
+          in: [ In ]
+          out: [ Out ]
+        next:
+          - waituntil.new_wait_until_examined
+      
+      waituntil.new_wait_until_examined:
+        examined: bob/baultrigger
+        ".editor":
+          pos: [ 328.684387207, 284.251159668 ]
+          in: [ In ]
+          out: [ Out ]
+        next:
+          - journal.new_journal_entry: Activate
+          - objective.new_quest_objective: Activate
+          - objective.new_quest_objective: Success
+          - questoutcome.new_quest_outcome: Success
+      
+      journal.new_journal_entry:
+        ".editor": [ 478.0216369629, 90.7245788574 ]
+        entry: quests/homedinner/back_home
+        notify: true
+        next:
+          - end
+      
+      journal.new_journal_entry_1:
+        ".editor": [ 631.8485717773, 441.1515197754 ]
+        entry: quests/homedinner/success
+        notify: true
+        next: ".done"
+      
+      objective.new_quest_objective:
+        ".editor": [ 592.0, 320.0 ]
+        objective: homedinner/relaxing/relax
+        notify: true
+        track: false
+        next: ".done"
+      
+      questoutcome.new_quest_outcome:
+        ".editor": [ 464.3485412598, 449.4848327637 ]
+        quest: homedinner
+        notify: true
+        next:
+          - journal.new_journal_entry_1: Activate
+      
+      end:
+        ".editor": [ 737.7209472656, 217.733581543 ]
+        next: ".done"
+      

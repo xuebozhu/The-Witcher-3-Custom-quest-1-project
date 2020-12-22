@@ -1,0 +1,57 @@
+layers: 
+  dinnerlayer1: 
+    world: "bob"
+    #context: ""
+
+    areas: 
+      area1: 
+        height: 8.0
+        borderpoints: 
+          - [ -383.0779724121, -803.2508544922, 35.2098999023 ]
+          - [ -387.1444396973, -808.7559204102, 35.2098999023 ]
+          - [ -392.6604919434, -803.1559448242, 35.2098999023 ]
+          - [ -389.8474426270, -797.8070068359, 35.2098999023 ]
+    
+    interactiveEntities:
+      baultrigger:
+        .preset: .MonsterClue
+        template: W3MonsterClue:clue_on_road
+        pos: [ -390.6562194824, -802.6787109375, 35.1065063477 ]
+        rot: [ 0.0, 0.0, 237.6000366211 ]
+        settings:
+          # valid anims:
+            # SlotAnimation
+            # Meditation
+            # ExamineGround
+            # ExamineEyeLevel
+            # SmellHigh
+            # SmellMid
+            # SmellLow
+            # InspectHigh
+            # InspectMid
+            # InspectLow
+            # IgniLight
+            # AardLight
+            # SetBomb
+            # PourPotion
+            # DispelIllusion
+            # GoToSleep
+          anim: SmellHigh
+          duration: 2.0
+          # valid commentary (case insensitieve):
+            # MonsterNestDrowners
+            # FreshTracks
+            # FollowingTracks
+            # BloodTrail
+            # InvestigateArea
+            # HideoutFound
+            # FindOtherWay
+            # AnotherVictim
+            # UnevenFight
+            # ALotOfBlood
+            # GenericRemarks
+            # AboutTrophy
+            # FasterHorse
+          commentary: aLotOfBlood
+          enabled: true
+          noweapon: true

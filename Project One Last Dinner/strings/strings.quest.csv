@@ -1,0 +1,10 @@
+;meta[language=en]
+; id      |key(hex)|key(str)| text
+2119999000|00000000||MOD questgroup_project1 Quests
+2119999001|00000000||Prepare...
+2119999002|00000000||Welcome back Home.<br/>
+2119999003|00000000||Time to dinner.
+2119999004|00000000||Home Dinner
+2119999005|00000000|dlc_name_project1|One Last Dinner
+2119999006|00000000|option_dlc_name_project1|MOD: One Last Dinner
+2119999007|00000000|content_name_dlc_project1|MOD: One Last Dinner

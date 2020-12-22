@@ -1,0 +1,16 @@
+#
+# production settings
+# 
+# (version: 10, saved: 2020-12-06 22:25:43)
+#
+---
+production:
+  settings:
+    id: project1
+    caption: One Last Dinner
+    menuvisibile: true
+    enabled: true
+    storesdata: true
+    strings-idspace: 9999
+    strings-idstart: 0
+    version: 10

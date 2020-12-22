@@ -1,0 +1,19 @@
+#
+# definition of entities
+#
+entities:
+  clue_on_road:
+    includes:
+      - W3MonsterClue:quests\prologue\quest_files\living_world\entities\clues\blood\lw_clue_blood_splat_big.w2ent
+
+    entityObject:
+      .type: W3MonsterClue
+      testLineOfSight: true
+      components:
+        examine:
+          .type: CInteractionComponent
+          actionName: Examine
+          rangeMin: 0.0
+          rangeMax: 3.0
+          isEnabled: true
+          reportToScript: true
